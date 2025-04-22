@@ -1,0 +1,16 @@
+{
+  "name": "url-shortener-hono",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "list": "wrangler deployments list",
+    "whoami": "wrangler whoami"
+  },
+  "dependencies": {
+    "hono": "^4.7.7"
+  },
+  "devDependencies": {
+    "wrangler": "^4.12.0"
+  }
+}
